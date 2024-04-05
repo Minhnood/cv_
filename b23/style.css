@@ -132,7 +132,7 @@ article span.text{
     font-size: 14px;
     display: flex;
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 375px) {
     header nav{
         padding: 0px 10px;
         height: 50px;
