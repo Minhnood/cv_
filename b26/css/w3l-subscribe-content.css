@@ -1,0 +1,55 @@
+/* phần 8 */
+/* SUBSCRIBE */
+#subscribe {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  
+  .subscribe-content {
+    box-shadow: rgba(1, 1, 1, 0.05) 1px 1px 5px 0px;
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius-full);
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .subscribe-heading {
+    font-size: 26px;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    margin-bottom: 8px;
+  }
+  
+  .subscribe-description {
+    margin-bottom: 48px;
+    font-size: 18px;
+  }
+  
+  .subscribe-input-email {
+    padding: 15px 20px;
+    border: 0;
+    font-size: 17px;
+    border-radius: var(--border-radius);
+    background-color: var(--bg-grey);
+    width: 400px;
+    color: var(--font-color);
+  }
+  
+  .subscribe-input-email:focus {
+    outline: none;
+  }
+  
+  .btn-subscribe {
+    padding: 15px 35px;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: 0;
+    font-size: 17px;
+  }
+  

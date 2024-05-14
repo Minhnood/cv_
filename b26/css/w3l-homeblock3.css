@@ -1,0 +1,70 @@
+/* phần thứ 4 */
+/* TOP PICK */
+#top-pick-article {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--bg-color);
+  }
+  
+  .top-pick-article-heading {
+    font-size: 26px;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+    margin-bottom: 40px;
+  }
+  
+  .top-pick-article-wrapper {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .top-pick-article-item {
+    width: calc(100% / 3);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .top-pick-article-content {
+    position: relative;
+    border-radius: var(--border-radius-full);
+    overflow: hidden;
+  }
+  
+  .top-pick-article-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .top-pick-article-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .top-pick-article-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .top-pick-article-author-avatar {
+    width: 58px;
+    height: 58px;
+    border: 2px solid rgb(153, 153, 153);
+    border-radius: 50%;
+  }
+  
+  .top-pick-article-author-name {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px)  {
+    :root {
+        --pagePadding: 128px;
+    }
+
+    /* <!-- Phần Bài viết tiêu điểm --> */
+    .hero-article-info {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .hero-article-title {
+        font-size: 36px;
+    }
+
+    .hero-article-description {
+        font-size: 18px;
+    }
+
+    .hero-article-image {
+        width: 100%;
+    }
+
+    .hero-article-thumb {
+        width: 100%;
+    }
+
+    /* <!-- phần Editor's Pick--> */
+    div.Pick-lefl {
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 68px;
+    }
+
+    div.Pick-lefl-article {
+        flex-wrap: wrap;
+    }
+
+    article.article-content {
+        width: 100%;
+        margin: 0px 0px 48px 0px;
+    }
+
+    article.article-content:last-child {
+        margin: 0px;
+    }
+
+    div.Pick-right {
+        width: 100%;
+    }
+
+    /* <!-- Phần bài viết nổi bật trong tháng --> */
+    .top-pick-article-item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .top-pick-article-content {
+        height: 450px;
+    }
+
+    .top-pick-article-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    /* <!-- Phần bài viết thuộc danh mục Fashion and style --> */
+    .fashion-style-article-item {
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    /* <!-- Form Subscribe --> */
+    .subscribe-wrapper .subscribe-content {
+        align-items: center;
+    }
+
+    .subscribe-form {
+        width: 100%;
+        padding: 0px 32px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .subscribe-input-email {
+        width: 100%;
+    }
+
+    .subscribe-description {
+        text-align: center;
+        padding: 0px 32px;
+    }
+}

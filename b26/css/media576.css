@@ -1,0 +1,102 @@
+@media screen and (max-width: 576px) {
+    :root {
+        --pagePadding: 15px;
+    }
+
+    #featured-categories {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    #hero-article {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    .editors-pick {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    #top-pick-article {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    #fashion-style-article {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    #beauty-article {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #trending-article {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    .trending-article-item {
+        padding: 0px;
+    }
+
+    #subscribe {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    .footer-wrapper {
+        padding: var(--pagePadding576) var(--pagePadding);
+    }
+
+    /* <!-- Phần bài viết thuộc danh mục Beauty --> */
+    .beauty-article-content {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0px;
+        border-bottom-left-radius: var(--border-radius-full);
+        border-bottom-right-radius: var(--border-radius-full);
+        border-top-left-radius: var(--border-radius-full);
+    }
+
+    .beauty-article-thumb {
+        width: 100%;
+        border-bottom-left-radius: var(--border-radius-full);
+    }
+
+    /* <!-- Phần bài viết Trending (Xu hướng) --> */
+    #trending-article .container-fluid {
+        padding: 0px var(--pagePadding);
+    }
+
+    .trending-article-item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .trending-article-content {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0px;
+        border-bottom-left-radius: var(--border-radius-full);
+        border-bottom-right-radius: var(--border-radius-full);
+        border-top-left-radius: var(--border-radius-full);
+    }
+
+    .trending-article-thumb {
+        width: 100%;
+        border-bottom-left-radius: var(--border-radius-full);
+    }
+
+    /* <!-- Form Subscribe --> */
+    .footer-right-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-list-wrapper {
+        width: calc(100% / 2);
+        margin-bottom: 24px;
+    }
+
+    .footer-list-wrapper:last-child {
+        margin: 0px;
+    }
+}

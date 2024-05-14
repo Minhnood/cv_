@@ -1,0 +1,81 @@
+/* FOOTER */
+footer {
+    background-color: var(--bg-color);
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  
+  .all-rights-reserved {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  
+  footer .design-by {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+  }
+  
+  footer .design-by-company {
+    color: var(--primary-color);
+  }
+  
+  .footer-wrapper {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .footer-left {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(100% / 3);
+  }
+  
+  .footer-right {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(100% / 3 * 2);
+  }
+  
+  .footer-right-content {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+  }
+  
+  .footer-list-wrapper {
+    width: calc(100% / 3);
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: var(--heading-font);
+    color: var(--heading-color);
+  }
+  
+  .footer-list-item {
+    margin-bottom: 5px;
+  }
+  
+  .footer-link {
+    font-size: 18px;
+  }
+  .fa-facebook-f{
+    color: #3A5998;
+  }
+  .fa-twitter{
+    color: #55ACEE;
+  }
+  .fa-linkedin-in{
+    color: #00A0DC;
+  }
+  .fa-dribbble{
+    color: #EA4C89;
+  }

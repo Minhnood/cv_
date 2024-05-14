@@ -1,0 +1,45 @@
+/* phần trên cùng */
+/* phần bên trái */
+/* HEADER */
+header {
+    padding: 22px 0;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
+    background-color: var(--bg-color);
+  }
+  
+  .navigation-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .main-logo {
+    color: var(--heading-color);
+    font-size: 28px;
+    font-weight: 600;
+  }
+  
+  .logo-icon {
+    color: var(--primary-color);
+  }
+  
+  .main-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+  .menu-item.active .menu-link {
+    color: var(--primary-color);
+  }
+  
+  .menu-link {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  

@@ -1,0 +1,101 @@
+@media screen and (max-width: 992px) {   
+    :root {
+        --pagePadding: 150px;
+      }
+    /* <!-- Phần Header --> */
+    #featured-categories div.container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .featured-categories-wrapper{
+        flex-wrap: wrap;
+    }
+    .featured-category-item {
+        width: calc(100% / 2);
+        margin-bottom: 24px;
+    }
+    .featured-category-item:nth-child(3n){
+        margin-bottom: 0px;
+    }
+    /* <!-- Phần Danh mục nổi bật --> */
+    .hero-article-wrapper {
+        flex-wrap: wrap;
+    }
+    .hero-article-info{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .hero-article-title{
+        font-size: 35px;
+    }
+    .hero-article-description{
+        font-size: 18px;
+    }
+    .hero-article-image{
+        width: 100%;
+    }
+    .hero-article-thumb{
+        width: 70%;
+    }
+    /* <!-- Phần Bài viết tiêu điểm --> */
+    .editors-pick{
+        flex-wrap: wrap;
+    }
+    div.Pick-lefl{
+        width: 100%;
+        padding-right: 0px;
+        margin-bottom: 68px;
+    }
+    div.Pick-right{
+        width: 100%;
+    }
+    /* <!-- phần Editor's Pick--> */
+    .top-pick-article-wrapper{
+        flex-wrap: wrap;
+    }
+    .top-pick-article-item{
+        width: calc(100% / 2);
+        margin-bottom: 24px;
+    }
+    .top-pick-article-item:last-child{
+        margin-bottom: 0px;
+    }
+    /* <!-- Phần bài viết thuộc danh mục Fashion and style --> */
+    .fashion-style-article-wrapper{
+        flex-wrap: wrap;
+    }
+    .fashion-style-article-item{
+        width: calc(100% / 2);
+        margin-bottom: 28px;
+    }
+    /* <!-- Phần bài viết thuộc danh mục Beauty --> */
+    .beauty-article-wrapper{
+        flex-wrap: wrap;
+    }
+    .beauty-article-item{
+        width: 100%;
+    }
+    .beauty-article-item:last-child{
+        margin-bottom: 0px;
+    }
+    /* <!-- Phần bài viết Trending (Xu hướng) --> */
+    .trending-article-wrapper{
+        flex-wrap: wrap;
+    }
+    .trending-article-item{
+        width: 100%;
+    }
+    /* <!-- Form Subscribe --> */
+    .footer-wrapper{
+        flex-wrap: wrap;
+    }
+    .footer-left{
+        width: 100%;
+        margin-bottom: 48px;
+    }
+    .footer-right{
+        width: 100%;
+    }
+}
