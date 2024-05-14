@@ -1,0 +1,17 @@
+@media screen and (max-width: 450px) {   
+    .main-logo{
+        font-size: 20px;
+    }
+    .menu-link{
+        font-size: 15px;
+    }
+    .featured-category-name{
+        font-size: 15px;
+    }
+    .featured-category-content{
+        padding: 15px;
+    }
+    img {
+        height: 100%;
+    }
+}

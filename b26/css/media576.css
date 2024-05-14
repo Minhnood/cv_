@@ -2,7 +2,9 @@
     :root {
         --pagePadding: 15px;
     }
-
+    header{
+        padding: 22px var(--pagePadding);
+    }
     #featured-categories {
         padding: var(--pagePadding576) var(--pagePadding);
     }
