@@ -1,17 +1,61 @@
 @media screen and (max-width: 450px) {   
+    :root {
+        --pagePadding: 10px;
+      }
     .main-logo{
-        font-size: 20px;
+        font-size: 16px;
     }
     .menu-link{
-        font-size: 15px;
+        font-size: 12px;
     }
     .featured-category-name{
-        font-size: 15px;
+        font-size: 12px;
     }
     .featured-category-content{
         padding: 15px;
     }
     img {
+        width: 100%;
         height: 100%;
+    }
+    .hero-article-title{
+        font-size: 20px;
+    }
+    .hero-article-description{
+        font-size: 12px;
+    }
+    div.Pick-lefl h2{
+        font-size: 20px;
+    }   
+    div.Pick-lefl h2{
+        font-size: 16px;
+    }
+    div.Pick-lefl-bottom > a{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    div.Pick-right div.veriabo > h2{
+        font-size: 20px;
+    }
+    div.Pick-right div.veriabo:last-child > h2{
+        font-size: 20px;
+    }
+    .top-pick-article-heading{
+        font-size: 20px;
+    }
+    .top-pick-article-title{
+        font-size: 16px;
+    }
+    .top-pick-article-content {
+        height: 350px;
+    }
+    .trending-article-heading{
+        font-size: 20px;
+    }
+    .subscribe-heading{
+        font-size: 20px;
+    }
+    .footer-list-wrapper:last-child{
+        display: none;
     }
 }

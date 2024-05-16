@@ -18,18 +18,3 @@
     --pagePadding: 170px;
     --pagePadding576:20px;
   }
-  @media screen and (max-width: 992px){   
-    :root {
-      --pagePadding: 150px;
-    }
-  }
-  @media screen and (max-width: 768px){   
-    :root {
-      --pagePadding: 128px;
-    }
-  }
-  @media screen and (max-width: 576px){   
-    :root {
-      --pagePadding: 15px;
-    }
-  }
