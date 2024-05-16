@@ -1,8 +1,8 @@
 @media screen and (max-width: 576px) {
     :root {
-        --pagePadding: 15px;
+        --pagePadding: 10px;
     }
-    header{
+    header{ 
         padding: 22px var(--pagePadding);
     }
     #featured-categories {
@@ -67,7 +67,7 @@
 
     /* <!-- Phần bài viết Trending (Xu hướng) --> */
     #trending-article .container-fluid {
-        padding: 0px var(--pagePadding);
+        padding: 0px;
     }
 
     .trending-article-item:last-child {
@@ -86,6 +86,10 @@
     .trending-article-thumb {
         width: 100%;
         border-bottom-left-radius: var(--border-radius-full);
+    }
+    .trending-article-wrapper{
+        margin: 0px;
+        width: 100%;
     }
 
     /* <!-- Form Subscribe --> */
